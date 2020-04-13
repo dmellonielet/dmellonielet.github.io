@@ -28,7 +28,7 @@ url: "https://www.dmellonielet.com" # the base hostname & protocol for your site
 # Build settings
 #theme: jekyll-athena
 
-theme: jekyll-theme-clean-blog
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
