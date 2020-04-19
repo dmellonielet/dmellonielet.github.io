@@ -2,5 +2,6 @@
 layout: page
 title: About me
 description: Allow me to introduce myself!
-background: '/images/about.jpg'
 ---
+
+About me!
