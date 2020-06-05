@@ -18,6 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Todo: Add Jekyll SEO  https://github.com/jekyll/jekyll-seo-tag
+
+
 title: Nielet D'mello
 email: dmellonielet@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
