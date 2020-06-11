@@ -253,6 +253,7 @@ DEPENDENCIES
   jekyll-compose
   jekyll-feed (~> 0.12)
   jekyll-paginate
+  kramdown (~> 1.14)
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
