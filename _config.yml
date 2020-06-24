@@ -53,6 +53,8 @@ linkedin_username:  nieletdmello
 
 google_analytics: UA-170300528-1
 
+permalink: /:title
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
