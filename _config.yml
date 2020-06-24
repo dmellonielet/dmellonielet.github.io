@@ -28,8 +28,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.dmellonielet.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Build settings
-#theme: jekyll-athena
 
 theme: minima
 plugins:
@@ -37,6 +35,7 @@ plugins:
   - jekyll-paginate
   - jemoji
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 paginate: 5
 paginate_path: "/posts/page:num/"
@@ -49,7 +48,6 @@ email: dmellonielet@gmail.com
 # Social Profiles
 twitter_username:   dmellonielet
 github_username:    dmellonielet
-
 linkedin_username:  nieletdmello
 
 
