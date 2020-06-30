@@ -3,7 +3,6 @@ layout: post
 title: "The 'Tell me about Yourself' Interview Question"
 date: 2020-06-29 03:00:00 -0000
 author: "Nielet D'mello"
-categories: ['software engineering', 'computer science', 'technical interviews']
 tags: ['backend engineering', 'technology']
 ---
 

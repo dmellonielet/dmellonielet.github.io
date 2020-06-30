@@ -3,7 +3,6 @@ layout: post
 title: "Under the hood of a data-intensive application"
 date: 2020-06-19 03:00:00 -0000
 author: "Nielet D'mello"
-categories: ['software engineering', 'computer science', 'data intensive applications', 'distributed systems']
 tags: ['backend engineering', 'technology']
 ---
 
