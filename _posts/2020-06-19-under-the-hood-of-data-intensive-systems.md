@@ -3,7 +3,8 @@ layout: post
 title: "Under the hood of a data-intensive application"
 date: 2020-06-19 03:00:00 -0000
 author: "Nielet D'mello"
-tags: technical
+categories: ['software engineering', 'computer science', 'data intensive applications', 'distributed systems']
+tags: ['backend engineering', 'technology']
 ---
 
 ![Under the hood of data intensive systems](/images/ddia.jpg  "Photo by h heyerlein on Unsplash")

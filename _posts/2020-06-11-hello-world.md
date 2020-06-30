@@ -3,7 +3,8 @@ layout: post
 title: "Hello World !!!"
 date: 2020-06-11 03:00:00 -0000
 author: "Nielet D'mello"
-tags: miscellaneous
+categories: ['software engineering', 'computer science', 'career development']
+tags: ['miscellaneous', 'technology']
 ---
   
 
