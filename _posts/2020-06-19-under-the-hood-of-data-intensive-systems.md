@@ -9,7 +9,7 @@ tags: ['backend engineering', 'technology']
 ![Under the hood of data intensive systems](/images/ddia.jpg  "Photo by h heyerlein on Unsplash")
 
 
-Data is one of the most important assets right now and it is established that '*The Future is Data-Driven*'.
+Data is one of the most important assets right now and it is established that '*The Future is Data-Driven*'. :computer:
 
 Some time back, I started reading the brilliant book '***Designing Data-Intensive Applications***' by Martin Kleppman. The book impressed me as a modern-day textbook for anyone who wants to understand in-depth what it takes to design, build, and maintain a data-intensive application.
   
@@ -115,4 +115,4 @@ However, a well-designed system can utilize the following three design principle
 ## Conclusion
 
 
-There is no easy fix for ensuring a system is reliable, scalable, and maintainable. To understand how to achieve this goal requires understanding the patterns and techniques that keep appearing in various such applications.
+There is no easy fix for ensuring a system is reliable, scalable, and maintainable. To understand how to achieve this goal requires understanding the patterns and techniques that keep appearing in various such applications. 

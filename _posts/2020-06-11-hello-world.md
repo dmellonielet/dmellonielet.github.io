@@ -19,7 +19,7 @@ tags: ['miscellaneous', 'technology']
 
 Being in tech, one thing was very evident to me early on.
 
-*It is a journey.*
+*It is a journey.* :sparkles:
 
 One that comes with a myriad of experiences, learnings, changes (both expected and unexpected), and growth.
 

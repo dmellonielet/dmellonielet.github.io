@@ -9,7 +9,7 @@ description: Allow me to introduce myself!
 
 
 I am a Software Engineer based in the **San Francisco Bay Area**. 
-As a backend engineer, my area of expertise and interest is backend engineering and software security primarily focused on data modeling, designing and evolving interfaces, developing scalable APIs and services and software security.
+As a backend engineer, my area of expertise and interest is backend engineering and security primarily focused on data modeling, designing and evolving interfaces, developing scalable APIs and services and software security.
 
 At *Intel Corporation*, I lead the design and development of microservices that power the next generation of immersive media experiences for Sports using volumetric data.
 Before Intel, I have worked at *McAfee LLC*, one of the leaders in Cyber Security where I gained depth on securing software and defense against threats.

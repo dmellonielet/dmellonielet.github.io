@@ -10,10 +10,10 @@ tags: ['backend engineering', 'technology']
 
   
 
-    “Be yourself; everyone else is already taken.”
+    “Be yourself; everyone else is already taken.” 
     ― Oscar Wilde
 
-Interviewing is a skill.
+Interviewing is a skill. :sparkles:
  
 Your ability to interact with the interviewer and to convey your thoughts are just as crucial factors to landing a job as are the qualifications listed on your resume.
 Every interview begins with the inevitable question- ***Tell me about yourself***. Often, this is the very first question and we all can agree that often the *first impressions are the most lasting*.
