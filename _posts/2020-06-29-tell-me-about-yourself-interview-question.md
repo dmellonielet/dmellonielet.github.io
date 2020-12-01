@@ -4,6 +4,7 @@ title: "The 'Tell me about Yourself' interview question"
 date: 2020-06-29 03:00:00 -0000
 author: "Nielet D'mello"
 tags: ['backend engineering', 'technology']
+image: /images/tell-me-about-yourself.jpg
 ---
 
 ![Tell me about yourself](/images/tell-me-about-yourself.jpg  "Photo by Christin Hume on Unsplash")
