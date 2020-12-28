@@ -4,6 +4,7 @@ title: "The tech tribe of mentors"
 date: 2020-10-20 03:00:00 -0000
 author: "Nielet D'mello"
 tags: ['miscellaneous', 'technology']
+image: /images/mentor.jpg
 ---
 
 ![Mentor!](/images/mentor.jpg  "Photo by Drew Beamer on Unsplash")

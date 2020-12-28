@@ -4,6 +4,7 @@ title: "Owning your onboarding (specially in remote work)"
 date: 2020-11-30 03:00:00 -0000
 author: "Nielet D'mello"
 tags: ['miscellaneous', 'technology']
+image: /images/onboarding.jpg 
 ---
 
 
