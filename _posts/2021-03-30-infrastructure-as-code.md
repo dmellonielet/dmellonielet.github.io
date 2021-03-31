@@ -134,27 +134,27 @@ The goal of a good design for the infrastructure code is to create low coupling 
 
 ### Rules for Designing Components
 
-1. Avoid duplication
+- Avoid duplication
 
 When designing infrastructure components, following the DRY (Don't repeat yourself) principle helps reduce duplications. Duplication in code forces the team to make changes in multiple places.
 
-2. Rule of composition
+- Rule of composition
 
 To make a composable system, make independent pieces. It should be easy to replace one side of a dependency relationship without disturbing the other.
 
-3. Single Responsibility Principle
+- Single Responsibility Principle
 
 The SRP says any given component should have responsibility for one thing. The idea is to keep each component focused so that its contents are cohesive.
 
-4. Design components around domain concepts, not technical ones
+- Design components around domain concepts, not technical ones
 
 To achieve better reusability, components should be designed around domain concepts. For example, instead of designing a generic server implementation, the design is based on the domain- application server, build server, etc. 
 
-5. Law of Demeter
+- Law of Demeter
 
 This is the principle of least knowledge, a component should not know how other components are implemented. This rule pushes for clear, simple interfaces between components.
 
-6. No circular dependencies
+- No circular dependencies
 
 In a dependency relationship between components, a provider component creates or defines a resource that a consumer component uses. As we trace relationships from a component that provides resources to consumers, we should never find a loop (or cycle). In other words, a provider component should never consume resources from one of its own direct or indirect consumers.
 
