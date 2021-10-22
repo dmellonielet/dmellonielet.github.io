@@ -40,4 +40,4 @@ end
 
 #gem "activesupport", ">= 6.0.3.1"
 
-gem 'kramdown', '~> 1.14'q
+gem 'kramdown', '~> 1.14'

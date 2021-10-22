@@ -10,6 +10,8 @@ image: /images/onboarding.jpg
 
 ![WFH!](/images/onboarding.jpg  "Photo by XPS on Unsplash")
 
+> Check out the much polished version I wrote on [LeadDev](https://leaddev.com/professional-development/owning-your-onboarding-remote-world)
+
 
 Career moves like starting a new role are challenging, can often be unnerving, and for sure requires leveling up. :computer:
 
@@ -23,10 +25,10 @@ A well-defined onboarding is crucial to provide team members with the resources 
 
 Usually, onboarding has two distinct & complementary components:
 
--   **General Onboarding**: Getting familiar with the company culture, vision, mission, value, etc.
+- **General Onboarding**: Getting familiar with the company culture, vision, mission, value, etc.
 
 
--   **Role-specific Onboarding**: Acquire the knowledge, skills, and behaviors to master the role effectively and efficiently.
+- **Role-specific Onboarding**: Acquire the knowledge, skills, and behaviors to master the role effectively and efficiently.
 
 Joining a new team brings in a plethora of information and emotions and can be quite stressful. If you are reading this as someone who needs to onboard a team member, I highly encourage taking some time to think through the prep work covering basics for onboarding. At the end of the article, I have listed some useful resources for the same.
 
@@ -46,11 +48,11 @@ The most important thing is setting expectations for your new role. Sure, you ha
 
 Well, you have cracked the role owing to your strengths and the value you potentially bring to the team. Hence, it is vital to discuss the expectations of onboarding with your manager. A few questions to ask:
 
--   What do you suggest I focus on for my first week and month in this team?
--   How can I learn more about the project(s)?
--   Is there a team 'how-to' document I can refer to?
--   Who is my dedicated buddy for onboarding?
--   What accesses a new member needs to request?
+- What do you suggest I focus on for my first week and month in this team?
+- How can I learn more about the project(s)?
+- Is there a team 'how-to' document I can refer to?
+- Who is my dedicated buddy for onboarding?
+- What accesses a new member needs to request?
 
 
 ### 3. Create a plan
