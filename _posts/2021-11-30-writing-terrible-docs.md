@@ -41,4 +41,4 @@ Tying back to the idea of context, skipping references and guides is best to lea
 Last but not least, do not seek feedback because it will involve some points listed above. Try not to give a mechanism for readers to provide feedback. If they do, ignore it. 
 
 
-There you have it- A perfect recipe for writing terrible documentation. :dart:
+There you have it- A perfect recipe for writing terrible documentation (I'm pretty sure, there are more aspects than the ones I covered in this post). :dart:
