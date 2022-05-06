@@ -7,6 +7,8 @@ tags: ['software engineering', 'technology']
 image: /images/endofchap2.jpg
 ---
 
+![Intel](/images/endofchap2.jpg)
+
 Today is my last day at Intel. I began my chapter 1 as an intern in 2015, chapter 2 in 2019 after a year and half working at McAfee. It’s been a quite a ride with lots of learning and challenges too. Here, I have grown immensely both professionally and personally. 
 
 As I reflect on my overall experience, I thought I'd share my learnings here briefly:
