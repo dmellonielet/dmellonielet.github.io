@@ -6,10 +6,10 @@ description: Allow me to introduce myself!
 
 ![Welcome!](/images/GoldenGate.jpg "Photo by Andreas Selter on Unsplash")
 
-I am a Software Engineer based in sunny **California**.
+I am a Security Engineer based in sunny **California**.
 I like to think of myself as a specialized generalist, having worked on various areas of software engineering- building backend systems, infrastructure, operations, and security software development.
 
-At *Intel Corporation*, I am currently working on building the next generation of developer productivity platforms. I enjoy interacting with several development teams and influencing them towards the new initiatives.
+Previously at *Intel Corporation*, I am worked on building the next generation of developer productivity platforms. I enjoy interacting with several development teams and influencing them towards the new initiatives.
 Before Intel, I have worked at *McAfee LLC*, one of the leaders in Cyber Security where I gained depth on securing software and defense against threats.
 
 I have a Master's degree in Computer Software Engineering from San Jose State University. *Go Spartans*!
