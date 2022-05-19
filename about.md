@@ -9,7 +9,7 @@ description: Allow me to introduce myself!
 I am a Security Engineer based in sunny **California**.
 I like to think of myself as a specialized generalist, having worked on various areas of software engineering- building backend systems, infrastructure, operations, and security software development.
 
-Previously at *Intel Corporation*, I am worked on building the next generation of developer productivity platforms. I enjoy interacting with several development teams and influencing them towards the new initiatives.
+Previously at *Intel Corporation*, I worked on building the next generation of developer productivity platforms. I enjoy interacting with several development teams and influencing them towards the new initiatives.
 Before Intel, I have worked at *McAfee LLC*, one of the leaders in Cyber Security where I gained depth on securing software and defense against threats.
 
 I have a Master's degree in Computer Software Engineering from San Jose State University. *Go Spartans*!
