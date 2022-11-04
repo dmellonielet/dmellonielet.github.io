@@ -7,6 +7,8 @@ tags: ['software engineering', 'technology']
 image: /images/theweeklysync.png
 ---
 
+![Weekly Sync](/images/theweeklysync.png)
+
 I am so excited to introduce my weekly newsletter on Substack- [The Weekly Sync](https://theweeklysync.substack.com/).
 
 The primary purpose of this is to practice consistency with writing, experiementing with varied topics that are best suited for short form content with a potential of becoming blog posts here and leveraging the powerful features of a platform like Substack.
