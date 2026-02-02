@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 #gem "jekyll", "~> 4.0.0"
 
-gem "jekyll", "~> 3.6"
+gem "jekyll", "~> 3.9"
 
 gem "github-pages", group: :jekyll_plugins
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
@@ -40,4 +40,4 @@ end
 
 #gem "activesupport", ">= 6.0.3.1"
 
-gem 'kramdown', '~> 1.14'
+gem 'kramdown', '~> 2.3'
