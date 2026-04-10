@@ -2,6 +2,7 @@
 layout: page
 title: Namaste!
 description: Allow me to introduce myself!
+permalink: /about/
 ---
 
 <div class="about-photo">
