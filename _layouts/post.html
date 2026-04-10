@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="notepad-post">
+  <div class="notepad-post__cover" aria-hidden="true">
+    <div class="notepad-post__cover-content">
+      <span class="notepad-post__cover-title">{{ page.title }}</span>
+    </div>
+  </div>
+
+  <div class="notepad-post__pages">
+    <header class="notepad-post__header">
+      <h1 class="notepad-post__title">{{ page.title }}</h1>
+      <div class="notepad-post__meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+        <span>&middot;</span>
+        {% include read_time.html content=page.content %}
+        {% if page.tags and page.tags.size > 0 %}
+        <span class="notepad-post__tags">
+          {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+        </span>
+        {% endif %}
+      </div>
+    </header>
+
+    <div class="notepad-post__body">
+      {{ content }}
+    </div>
+
+    <footer class="notepad-post__footer">
+      <a href="{{ "/posts/" | relative_url }}" class="back-btn">&larr; Back to all notes</a>
+    </footer>
+  </div>
+</article>
+
+<script src="{{ "/assets/js/unfold.js" | relative_url }}"></script>

@@ -23,8 +23,7 @@
 
 title: Kaleidoscope
 #email: dmellonielet@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Hello! Welcome to my Blog..All thoughts and opinions are my own.
+description: thoughts, ideas & things I've learned
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.dmellonielet.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -39,6 +38,8 @@ plugins:
 
 paginate: 25
 paginate_path: "/posts/page:num/"
+
+excerpt_separator: "<!--more-->"
 
 destination: public
 

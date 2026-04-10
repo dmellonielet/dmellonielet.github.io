@@ -1,48 +1,34 @@
 ---
-layout: page
-title: Posts
-background: '/images/about.jpg'
+layout: default
+title: Notes
 ---
-<meta property="og:image" content="{{ site.url }}/images/{{ post.image }}">
 
-{% for post in paginator.posts %}
-
-<article class="post-preview">
-  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <h2 class="post-title">{{ post.title }}</h2>
-    {% if post.subtitle %}
-    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-   
-    {% endif %}
-  </a>
-  <p class="post-meta">Posted by
-    {% if post.author %}
-    {{ post.author }}
-    {% else %}
-    {{ site.author }}
-    {% endif %}
-   on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}</p>
-</article>
-
-<hr>
-
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-
-<div class="clearfix">
-
-  {% if paginator.previous_page %}
-  <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
-    Newer<span class="d-none d-md-inline"> Posts</span></a>
-  {% endif %}
-
-  {% if paginator.next_page %}
-  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span
-      class="d-none d-md-inline"> Posts</span> &rarr;</a>
-  {% endif %}
-
+<div class="board-divider">
+  <span class="board-divider__text">✦ notes ✦</span>
 </div>
 
+<div class="sticky-board">
+  {% for post in paginator.posts %}
+  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+     class="sticky-note sticky-note--color-{{ forloop.index | modulo: 5 }}"
+     aria-label="{{ post.title }}">
+    <div class="sticky-note__tape" aria-hidden="true"></div>
+    <span class="sticky-note__date">{{ post.date | date: "%b %d, %Y" }}</span>
+    <h2 class="sticky-note__title">{{ post.title }}</h2>
+    <p class="sticky-note__excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+    <span class="sticky-note__read-time">{% include read_time.html content=post.content %}</span>
+  </a>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination-bar" aria-label="Pagination">
+  {% if paginator.previous_page %}
+  <a class="pagination-bar__btn" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer</a>
+  {% endif %}
+  <span class="pagination-bar__count">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+  <a class="pagination-bar__btn" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older &rarr;</a>
+  {% endif %}
+</nav>
 {% endif %}

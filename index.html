@@ -1,6 +1,26 @@
 ---
-layout: home
-
-background: '/images/about.jpg'
-
+layout: default
+title: Home
 ---
+
+<div class="board-divider">
+  <span class="board-divider__text">✦ {{ site.description }} ✦</span>
+</div>
+
+<div class="sticky-board">
+  {% for post in site.posts limit:6 %}
+  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
+     class="sticky-note sticky-note--color-{{ forloop.index | modulo: 5 }}"
+     aria-label="{{ post.title }}">
+    <div class="sticky-note__tape" aria-hidden="true"></div>
+    <span class="sticky-note__date">{{ post.date | date: "%b %d, %Y" }}</span>
+    <h2 class="sticky-note__title">{{ post.title }}</h2>
+    <p class="sticky-note__excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+    <span class="sticky-note__read-time">{% include read_time.html content=post.content %}</span>
+  </a>
+  {% endfor %}
+</div>
+
+<div style="text-align: center; padding: 0 0 3rem;">
+  <a href="{{ "/posts/" | relative_url }}" style="font-family: var(--font-handwritten); font-size: 1.2rem; color: var(--ink-mid);">View all notes &rarr;</a>
+</div>

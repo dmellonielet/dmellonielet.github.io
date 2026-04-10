@@ -1,0 +1,47 @@
+// Notepad cover flipping up like opening a pad
+@keyframes cover-flip {
+  0% {
+    transform: perspective(1400px) rotateX(0deg);
+    opacity: 1;
+  }
+  70% {
+    transform: perspective(1400px) rotateX(-70deg);
+    opacity: 0.6;
+  }
+  100% {
+    transform: perspective(1400px) rotateX(-90deg);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+// Staggered fade-in for sticky notes on grid load
+@keyframes note-appear {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@for $i from 1 through 25 {
+  .sticky-note:nth-child(#{$i}) {
+    animation: note-appear 0.4s ease backwards;
+    animation-delay: #{$i * 45}ms;
+  }
+}
+
+// Respect user preference
+@media (prefers-reduced-motion: reduce) {
+  .notepad-post__cover {
+    animation: none !important;
+    display: none !important;
+  }
+
+  .sticky-note {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+
+    &:hover {
+      transform: none !important;
+    }
+  }
+}

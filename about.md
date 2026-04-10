@@ -4,22 +4,34 @@ title: Namaste!
 description: Allow me to introduce myself!
 ---
 
-![Welcome!](/images/GoldenGate.jpg "Photo by Andreas Selter on Unsplash")
+<div class="about-photo">
+  <img src="/images/me25.png" alt="Nielet D'mello" />
+</div>
 
-I am a Security Engineer based in sunny **California**.
-I like to think of myself as a specialized generalist, having worked on various areas of software engineering- building backend systems, infrastructure, operations, and security software development.
+I am a Security Engineer based in sunny **California**, a specialized generalist who has worked across backend systems, infrastructure, operations, and security software development.
 
-Previously at *Intel Corporation*, I worked on building the next generation of developer productivity platforms. I enjoy interacting with several development teams and influencing them towards the new initiatives.
-Before Intel, I have worked at *McAfee LLC*, one of the leaders in Cyber Security where I gained depth on securing software and defense against threats.
+Previously at *Intel Corporation*, I built next-generation developer productivity platforms, working closely with engineering teams to drive new initiatives. Before that, at *McAfee LLC*, I deepened my expertise in securing software and defending against threats.
 
-I have a Master's degree in Computer Software Engineering from San Jose State University. *Go Spartans*!
-I have encountered opportunities and challenges in my career where I worked with talented people on products used across the globe.
-Outside my regular responsibilities at work, I am very passionate about mentorship (often a mentee and sometimes a mentor!) and initiatives that support STEM education.
+I hold a Master's degree in Computer Software Engineering from San Jose State University. *Go Spartans!*
 
-I am an avid reader, fitness fanatic and love to spend time outdoors!
-My mantra- **'Be the Change you wish to see in the World'**.
+## *the work*
 
-On this blog, I share my learnings in tech, career development, and wellness.
-Have ideas/ feedback you would like to discuss with me? ***I am all ears***!
+I have had the privilege of working with talented people on products used across the globe. Outside my core responsibilities, I am passionate about mentorship, often a mentee, sometimes a mentor, and initiatives that support STEM education.
 
-P.S: [Checkout]({% post_url 2020-06-11-hello-world %}) my motivation for this blog.
+## *outside work*
+
+Avid reader. Fitness fanatic. Love spending time outdoors. In 2025, I became a mom, the most transformative thing I've ever done.
+
+My mantra: **'Be the change you wish to see in the world.'**
+
+## *this blog*
+
+On Kaleidoscope, I share learnings in tech, career development, and wellness. Have ideas or feedback? [Check out]({% post_url 2020-06-11-hello-world %}) what started it all. I'd love to hear from you.
+
+<div class="about-signoff">Nielet</div>
+
+<div class="about-links">
+  <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>
+  <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+  <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener">Twitter</a>
+</div>

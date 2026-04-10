@@ -46,7 +46,7 @@ How does one do it? For starters, these are the steps:
 3. the steps for that change
 
 To be effective at job crafting, I feel one needs to be open about it and build trust with their manager and peers while also creating value for the organization. The ease of doing this depends on the size of the team and/or the company.
-By intentionally crafting our jobs, we can find a sense of identity and purpose to turn a seemingly dead-end job into a launchpad. It all has to start with taking a step back from the daily grind and realizing that you actually have the ability to reconfigure the elements of your work.
+By intentionally crafting our jobs, we can find a sense of identity and purpose to turn a seemingly dead-end job into a launchpad.
 
 A good formula to focus on:
 
